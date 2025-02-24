@@ -1,4 +1,4 @@
-import java.util.*; // Untuk mengimpor kelas Scanner
+import java.util.*; 
 
 public class hal_20 {
     public static void main(String[] args) {
@@ -33,5 +33,7 @@ public class hal_20 {
         System.out.println("Saat ini, saya berusia " + umur + " tahun.");
         System.out.println("Saya tinggal di " + alamat + ".");
         System.out.println("Kondisi Akal Mu Saat Ini : " + (kondisi ? "Waras" : "Tidak Waras") + ".");
+
+        input.close();
     }
 }
